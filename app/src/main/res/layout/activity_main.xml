@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.galaxyf.greendaosimpledemo.MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/insertData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加数据"/>
+    <Button
+        android:id="@+id/deleteData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除数据" />
+    <Button
+        android:id="@+id/deleteByKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除key"/>
+    <Button
+        android:id="@+id/queryData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询数据" />
+    <Button
+        android:id="@+id/queryId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询ID" />
+    <Button
+        android:id="@+id/updateId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新数据" />
+    <Button
+        android:id="@+id/queryByPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分页查询" />
+    <Button
+        android:id="@+id/queryStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询学生" />
+    <Button
+        android:id="@+id/insertStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加学生" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_marginRight="12dip"
+            android:layout_marginLeft="12dip"
+            android:textSize="14sp"
+            android:padding="12dip"
+            android:hint="查询结果"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
